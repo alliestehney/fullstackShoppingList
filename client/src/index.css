@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Items {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	width: 28%;
+	margin: auto;
+}
+
+.itemPrice {
+	margin-left: 1%;
+}
+
+h3 {
+	text-align: center;
+}
+
+form {
+	margin: auto 35%;
+	border: 1px black solid;
+	padding: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 2%;
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+input {
+	width: 79%;
+	border: none;
+	border-bottom: 0.3px #D3D3D3 solid;
+	outline: none;
+}
+
+.price {
+	margin-right: 2%;
+}
+
+.DeleteButton {
+	margin-right: 1%;
+	color: red;
+	font-size: 13px;
+	padding: 0;
+	border: none;
+	background-color: white;
+}
+
+.Total {
+	color: black;
+	text-align: center;
+	border-top: 1px black solid;
+	width: 25%;
+	margin: auto;
+	padding-top: 0.5%;
+	margin-top: 0.5%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.Add {
+	width: 98%;
+	padding: 2%;
+	background-color: black;
+	color: white;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.Add:hover {
+	background-color: #D3D3D3;
+	cursor: pointer;
+}
